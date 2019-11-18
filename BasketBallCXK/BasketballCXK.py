@@ -12,16 +12,18 @@ import xlwt
 driver = webdriver.Chrome()   #获取浏览器对象
 Wait = WebDriverWait(driver,10) #浏览器等待，参数1 选择浏览器   参数2 设置浏览器超时时间
 driver.set_window_size(1400.900)     #设置浏览器显示位置
-book = xlwt.Workbook(encoding='utf-8',style_compression=0)   #style_compression:表示是否压缩
-sheet = book.add_sheet('NBA视频',cell_overwrite_ok=True)  #cell_overwrite_ok=True 表格为可写
-sheet.write(0, 0, '名称')
-sheet.write(0, 1, '地址')
-sheet.write(0, 2, '描述')
-sheet.write(0, 3, '观看次数')
-sheet.write(0, 4, '弹幕数')
-sheet.write(0, 5, '发布时间')
 
-n = 1    #页数
+book=xlwt.Workbook(encoding='utf-8',style_compression=0)    #style_compression:表示是否压缩
+
+sheet=book.add_sheet('蔡徐坤篮球',cell_overwrite_ok=True)
+sheet.write(0,0,'名称')
+sheet.write(0,1,'地址')
+sheet.write(0,2,'描述')
+sheet.write(0,3,'观看次数')
+sheet.write(0,4,'弹幕数')
+sheet.write(0,5,'发布时间')
+
+n=1
 
 
 def search():
@@ -101,7 +103,19 @@ def get_source():
     save_to_excel(soup)
 
 
+def main():
+    try:
+        tootle = search()
+        print(tootle)
 
+        for i in range(2,int(tootle+1)):
+            next_page(i)
+    finally:
+        driver.close()
+
+if __name__ == '__main__':
+    main()
+    book.save(u'蔡徐坤篮球.slsx')
 
 
 
