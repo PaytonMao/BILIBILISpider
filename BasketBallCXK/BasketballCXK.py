@@ -3,15 +3,24 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait  #selenium webDriverWait等待方法
 from selenium.webdriver.support import expected_conditions as EC   #判断包
 from selenium.webdriver.common.by import By   #定位包
+from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import xlwt
 
 
 
 
-driver = webdriver.Chrome()   #获取浏览器对象
-Wait = WebDriverWait(driver,10) #浏览器等待，参数1 选择浏览器   参数2 设置浏览器超时时间
-driver.set_window_size(1400.900)     #设置浏览器显示位置
+#driver = webdriver.Chrome()   #获取浏览器对象
+#Wait = WebDriverWait(driver,10) #浏览器等待，参数1 选择浏览器   参数2 设置浏览器超时时间
+#driver.set_window_size(1400.900)     #设置浏览器显示位置
+
+
+chrome_options = Options()  #chrome无头方法，无需显示页面
+chrome_options.add_argument('--headless')
+browser = webdriver.Chrome('C:/chromedriver.exe',options = chrome_options)
+WAIT = WebDriverWait(browser, 10)
+browser.set_window_size(1400, 900)
+
 
 book=xlwt.Workbook(encoding='utf-8',style_compression=0)    #style_compression:表示是否压缩
 
@@ -29,27 +38,27 @@ n=1
 def search():
     try:
         print("开始")
-        driver.get('https://www.bilibili.com/')
+        browser.get('https://www.bilibili.com/')
 
         #解决登录遮罩
         # until方法等待返回结果为True
         # EC.element_to_be_clickable判断某个元素中是否可见并且可实现
-        index = Wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"#primary_menu > ul > li.home > a")))
-        index.click()
+        index = WAIT.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"#primary_menu > ul > li.home > a")))   #遮罩
+        index.click()   #关闭遮罩
 
         #  presence_of_element_located  判断某个元素是否被加到了dom树里，并不代表该元素一定可见
-        input = Wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR,"#banner_link > div > div > form > input")))
-        submit = Wait.until(EC.element_to_be_clickable((By.XPATH,'//*[@id="banner_link"]/div/div/form/button')))
+        input = WAIT.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR,"#banner_link > div > div > form > input")))
+        submit = WAIT.until(EC.element_to_be_clickable((By.XPATH,'//*[@id="banner_link"]/div/div/form/button')))
 
-        input.send_keys('NBA')  #设置查询内容
+        input.send_keys('蔡徐坤 篮球')  #设置查询内容
         submit.click()
 
         print('跳转至新窗口')
-        new_window = driver.window_handles #h获取新窗口句柄，如无新窗口句柄，则无法定位页面元素
-        driver.switch_to.window(new_window[1])  #切换新窗口
+        new_window = browser.window_handles #h获取新窗口句柄，如无新窗口句柄，则无法定位页面元素
+        browser.switch_to.window(new_window[1])  #切换新窗口
 
         get_source()
-        total = Wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,"#server-search-app > div.contain > div.body-contain > div > div.page-wrap > div > ul > li.page-item.last > button")))
+        total = WAIT.until(EC.presence_of_element_located((By.CSS_SELECTOR,"#server-search-app > div.contain > div.body-contain > div > div.page-wrap > div > ul > li.page-item.last > button")))
         print(total)
 
         return int(total.text)
@@ -85,20 +94,20 @@ def save_to_excel(soup):
 def next_page(page_Num):
     try:
         print("开始寻找下一页数据")
-        next_buton = Wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,'#server-search-app > div.contain > div.body-contain > div > div.page-wrap > div > ul > li.page-item.next > button')))
+        next_buton = WAIT.until(EC.element_to_be_clickable((By.CSS_SELECTOR,'#server-search-app > div.contain > div.body-contain > div > div.page-wrap > div > ul > li.page-item.next > button')))
         next_buton.click()
-        Wait.until(EC.text_to_be_present_in_element((By.CSS_SELECTOR,'#server-search-app > div.contain > div.body-contain > div > div.page-wrap > div > ul > li.page-item.active > button')),str(page_Num))
+        WAIT.until(EC.text_to_be_present_in_element((By.CSS_SELECTOR,'#server-search-app > div.contain > div.body-contain > div > div.page-wrap > div > ul > li.page-item.active > button')),str(page_Num))
         get_source()
     except TimeoutException:
-        driver.refresh()
+        browser.refresh()
         return next_page(page_Num)
 
 
 
 
 def get_source():
-    Wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR,'#server-search-app > div.contain > div.body-contain > div > div.result-wrap.clearfix')))
-    html = driver.page_source    #解析页面源码
+    WAIT.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR,'#server-search-app > div.contain > div.body-contain > div > div.result-wrap.clearfix')))
+    html = browser.page_source    #解析页面源码
     soup = BeautifulSoup(html,'lxml')
     save_to_excel(soup)
 
@@ -111,7 +120,7 @@ def main():
         for i in range(2,int(tootle+1)):
             next_page(i)
     finally:
-        driver.close()
+        browser.close()
 
 if __name__ == '__main__':
     main()
