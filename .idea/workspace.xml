@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad61223-56e4-4410-b9aa-0e370ea54f08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/driver Directory/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/testClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/testSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/testvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UperDanmuTop/TestRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UperDanmuTop/danmuNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UperDanmuTop/danmuSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UperDanmuTop/散人弹幕TOP.slsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/lex弹幕TOP.slsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/华农兄弟弹幕.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/散人弹幕TOP.slsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/武汉弹幕TOP.slsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuhanSpider/wuhanDanmakuSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhihuSpider/zhihuSalarySpider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasketBallCXK/BasketballCXK.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasketBallCXK/BasketballCXK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HQjhqspider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ghostdriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/spiderTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/testSpoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/danmuSpider.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,27 +33,44 @@
   <component name="FavoritesManager">
     <favorites_list name="BILIBILISpider" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1TmRBFvUYrtxMZZiqkoH5s0vZky" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/driver Directory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UperDanmuTop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UperDanmuTop" />
+      <recent name="$PROJECT_DIR$/Test" />
       <recent name="C:\Users\admin\PycharmProjects\BILIBILISpider\driver Directory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UperDanmuTop" />
+      <recent name="$PROJECT_DIR$/dat" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -50,8 +85,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="BasketballCXK" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.danmuNum">
+    <configuration name="danmuNum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BILIBILISpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,12 +94,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BasketBallCXK" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UperDanmuTop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasketBallCXK/BasketballCXK.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UperDanmuTop/danmuNum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BILIBILISpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/testClass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BILIBILISpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/testSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testvideo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BILIBILISpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/testvideo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wuhanDanmakuSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BILIBILISpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wuhanSpider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wuhanSpider/wuhanDanmakuSpider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BasketballCXK" />
+        <item itemvalue="Python.danmuNum" />
+        <item itemvalue="Python.testSpider" />
+        <item itemvalue="Python.testvideo" />
+        <item itemvalue="Python.wuhanDanmakuSpider" />
+        <item itemvalue="Python.testClass" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +220,71 @@
       <workItem from="1574080171119" duration="1485000" />
       <workItem from="1574081970949" duration="2481000" />
       <workItem from="1574128213961" duration="5407000" />
+      <workItem from="1574770744428" duration="4715000" />
+      <workItem from="1574857629048" duration="4524000" />
+      <workItem from="1574949867829" duration="3094000" />
+      <workItem from="1575044842552" duration="4774000" />
+      <workItem from="1575087564885" duration="12446000" />
+      <workItem from="1575177534022" duration="8638000" />
+      <workItem from="1575386725104" duration="2740000" />
+      <workItem from="1575562763545" duration="2000" />
+      <workItem from="1575563431748" duration="8000" />
+      <workItem from="1575563607263" duration="9000" />
+      <workItem from="1575822049338" duration="12000" />
+      <workItem from="1576512168918" duration="22000" />
+      <workItem from="1576588994861" duration="4450000" />
+      <workItem from="1576598113168" duration="6575000" />
+      <workItem from="1576762254645" duration="255000" />
+      <workItem from="1576767117361" duration="7000" />
+      <workItem from="1576863473949" duration="2000" />
+      <workItem from="1576879094235" duration="3000" />
+      <workItem from="1576924175037" duration="2596000" />
+      <workItem from="1576952056491" duration="275000" />
+      <workItem from="1577001532371" duration="1911000" />
+      <workItem from="1577209421703" duration="55000" />
+      <workItem from="1577518826955" duration="13252000" />
+      <workItem from="1577588680892" duration="17026000" />
+      <workItem from="1577714680157" duration="2141000" />
+      <workItem from="1577728915256" duration="598000" />
+      <workItem from="1577801647549" duration="513000" />
+      <workItem from="1577847459571" duration="5968000" />
+      <workItem from="1578055912717" duration="16511000" />
+      <workItem from="1578398615343" duration="2680000" />
+      <workItem from="1578584520439" duration="7131000" />
+      <workItem from="1578721256273" duration="810000" />
+      <workItem from="1578740650820" duration="571000" />
+      <workItem from="1578741236235" duration="174000" />
+      <workItem from="1578741422691" duration="1097000" />
+      <workItem from="1578742761024" duration="3903000" />
+      <workItem from="1578926069150" duration="4632000" />
+      <workItem from="1579017542698" duration="80000" />
+      <workItem from="1579017731204" duration="63000" />
+      <workItem from="1579017925547" duration="219000" />
+      <workItem from="1579018656470" duration="448000" />
+      <workItem from="1579019878845" duration="478000" />
+      <workItem from="1579103167371" duration="4000" />
+      <workItem from="1579321877141" duration="1704000" />
+      <workItem from="1579689688951" duration="519000" />
+      <workItem from="1579695841308" duration="331000" />
+      <workItem from="1579936120508" duration="4490000" />
+      <workItem from="1580132056783" duration="2636000" />
+      <workItem from="1580267772671" duration="9706000" />
+      <workItem from="1580352260766" duration="5503000" />
+      <workItem from="1580441016444" duration="1583000" />
+      <workItem from="1580462662990" duration="60000" />
+      <workItem from="1580480503969" duration="4006000" />
+      <workItem from="1580888617480" duration="2895000" />
+      <workItem from="1580912213697" duration="2259000" />
+      <workItem from="1580965198366" duration="6000" />
+      <workItem from="1580965447119" duration="27536000" />
+      <workItem from="1581505819784" duration="797000" />
+      <workItem from="1582687091597" duration="3079000" />
+      <workItem from="1583211578607" duration="7834000" />
+      <workItem from="1583641036178" duration="355000" />
+      <workItem from="1583642445020" duration="8004000" />
+      <workItem from="1584267481250" duration="534000" />
+      <workItem from="1584866853203" duration="4000" />
+      <workItem from="1585471904943" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="偷懒了，就加了个main方法">
       <created>1574095284536</created>
@@ -101,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574095284536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="up主弹幕爬虫">
+      <created>1585472535025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585472535025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,13 +320,75 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/BILIBILISpider" />
     </ignored-roots>
     <MESSAGE value="偷懒了，就加了个main方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="偷懒了，就加了个main方法" />
+    <MESSAGE value="up主弹幕爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="up主弹幕爬虫" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test/testSpider.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test/testSpider.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test/testSpider.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UperDanmuTop/danmuSpider.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test/testSpider.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.list" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BILIBILISpider$BasketballCXK.coverage" NAME="BasketballCXK Coverage Results" MODIFIED="1574155592055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasketBallCXK" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$plotlyTest.coverage" NAME="plotlyTest Coverage Results" MODIFIED="1574872334685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$count_mysql.coverage" NAME="count_mysql Coverage Results" MODIFIED="1579019921227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$csvToMysqlTest.coverage" NAME="csvToMysqlTest Coverage Results" MODIFIED="1577732400781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$estest.coverage" NAME="estest Coverage Results" MODIFIED="1578084405557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$danmuNum.coverage" NAME="danmuNum Coverage Results" MODIFIED="1584264505259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UperDanmuTop" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$mouhuan_Spider.coverage" NAME="mouhuan_Spider Coverage Results" MODIFIED="1578757034303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UperDanmuTop" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$contTest.coverage" NAME="contTest Coverage Results" MODIFIED="1575046409790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$HNXDDanmuSipder.coverage" NAME="HNXDDanmuSipder Coverage Results" MODIFIED="1577524408233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UperDanmuTop" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$testSpoder.coverage" NAME="testSpoder Coverage Results" MODIFIED="1575118496163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$oldTomatoSpider.coverage" NAME="oldTomatoSpider Coverage Results" MODIFIED="1578934158259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UperDanmuTop" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$BasketballCXK.coverage" NAME="BasketballCXK Coverage Results" MODIFIED="1581142368309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasketBallCXK" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$mysqlTest.coverage" NAME="mysqlTest Coverage Results" MODIFIED="1575220386590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$HNXDSpiderToEStest.coverage" NAME="HNXDSpiderToEStest Coverage Results" MODIFIED="1577864379380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$danmuSpider.coverage" NAME="danmuSpider Coverage Results" MODIFIED="1580917424326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UperDanmuTop" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$testClass.coverage" NAME="testClass Coverage Results" MODIFIED="1581248947333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$HNXDSpider.coverage" NAME="HNXDSpider Coverage Results" MODIFIED="1576933373880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UperDanmuTop" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$TometoSpider.coverage" NAME="TometoSpider Coverage Results" MODIFIED="1577621860409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$TestRequest.coverage" NAME="TestRequest Coverage Results" MODIFIED="1578107062554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$wuhanDanmakuSpider.coverage" NAME="wuhanDanmakuSpider Coverage Results" MODIFIED="1581506586485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wuhanSpider" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$newPlotlyTest.coverage" NAME="newPlotlyTest Coverage Results" MODIFIED="1574949917329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$testjhq.coverage" NAME="testjhq Coverage Results" MODIFIED="1576599328462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$testvideo.coverage" NAME="testvideo Coverage Results" MODIFIED="1583645910230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1577621419395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$testSpider.coverage" NAME="testSpider Coverage Results" MODIFIED="1583650538046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/BILIBILISpider$HQjhqspider.coverage" NAME="HQjhqspider Coverage Results" MODIFIED="1576762287249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
